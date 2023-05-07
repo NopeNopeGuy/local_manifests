@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <project path="kernel/xiaomi/whyred" name="shekhawat2/android_kernel_xiaomi_whyred" remote="github" revision="KCUF_419" clone-depth="1" />
+    <remove-project name="LineageOS/android_hardware_qcom_audio" />
+    <remove-project name="LineageOS/android_hardware_qcom_media" />
+    <remove-project name="LineageOS/android_hardware_qcom_display" />
+    <project path="kernel/xiaomi/sdm660" name="shekhawat2/android_kernel_xiaomi_whyred" remote="github" revision="KCUF_419" clone-depth="1" />
     <project path="hardware/qcom-caf/msm8998/audio" name="shekhawat2/android_hardware_qcom_audio" remote="github" revision="13-4.19" clone-depth="1" />
     <project path="hardware/qcom-caf/msm8998/media" name="shekhawat2/android_hardware_qcom_media" remote="github" revision="13-4.19" clone-depth="1" />
     <project path="hardware/qcom-caf/msm8998/display" name="shekhawat2/android_hardware_qcom_display" remote="github" revision="sdm660-4.19" clone-depth="1" />
