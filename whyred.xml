@@ -3,8 +3,10 @@
     <remove-project name="android_hardware_qcom_audio" />
     <remove-project name="android_hardware_qcom_media" />
     <remove-project name="android_hardware_qcom_display" />
-    <project path="kernel/xiaomi/sdm660" name="shekhawat2/android_kernel_xiaomi_whyred" remote="github" revision="KCUF_419" clone-depth="1" />
-    <project path="hardware/qcom-caf/msm8998/audio" name="shekhawat2/android_hardware_qcom_audio" remote="github" revision="13-4.19" clone-depth="1" />
-    <project path="hardware/qcom-caf/msm8998/media" name="shekhawat2/android_hardware_qcom_media" remote="github" revision="13-4.19" clone-depth="1" />
-    <project path="hardware/qcom-caf/msm8998/display" name="shekhawat2/android_hardware_qcom_display" remote="github" revision="sdm660-4.19" clone-depth="1" />
+    <project path="device/xiaomi/whyred" name="shekhawat2/android_device_xiaomi_whyred" remote="github" revision="arrow-13.0" clone-depth="1" />
+    <project path="kernel/xiaomi/whyred" name="shekhawat2/android_kernel_xiaomi_whyred" remote="github" revision="KCUF_419" clone-depth="1" />
+    <project path="vendor/xiaomi/whyred" name="shekhawat2/android_vendor_xiaomi_whyred" remote="github" revision="rice" clone-depth="1" />
+    <project path="hardware/qcom-caf/whyred/audio" name="shekhawat2/android_hardware_qcom_audio" remote="github" revision="13-4.19" clone-depth="1" />
+    <project path="hardware/qcom-caf/whyred/media" name="shekhawat2/android_hardware_qcom_media" remote="github" revision="13-4.19" clone-depth="1" />
+    <project path="hardware/qcom-caf/whyred/display" name="shekhawat2/android_hardware_qcom_display" remote="github" revision="sdm660-4.19" clone-depth="1" />
 </manifest>
