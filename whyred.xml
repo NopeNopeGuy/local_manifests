@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remove-project name="LineageOS/android_hardware_qcom_audio" />
-    <remove-project name="LineageOS/android_hardware_qcom_display" />
-    <remove-project name="LineageOS/android_hardware_qcom_media" />
+    <remove-project name="hardware_qcom-caf_msm8996_media" />
+    <remove-project name="hardware_qcom-caf_msm8998_audio" />
+    <remove-project name="hardware_qcom-caf_msm8998_display" />
     <project path="device/xiaomi/whyred" name="NopeNopeGuy/android_device_xiaomi_whyred-1" remote="github" revision="thirteen-pe" clone-depth="1" />
     <project path="kernel/xiaomi/whyred" name="shekhawat2/android_kernel_xiaomi_whyred" remote="github" revision="KCUF_419" clone-depth="1" />
     <project path="vendor/xiaomi/whyred" name="shekhawat2/android_vendor_xiaomi_whyred" remote="github" revision="rice" clone-depth="1" />
