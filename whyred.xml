@@ -4,7 +4,7 @@
     <remove-project name="hardware_qcom-caf_msm8998_audio" />
     <remove-project name="hardware_qcom-caf_msm8998_display" />
     <project path="device/xiaomi/whyred" name="NopeNopeGuy/android_device_xiaomi_whyred-1" remote="github" revision="thirteen-pe" clone-depth="1" />
-    <project path="kernel/xiaomi/whyred" name="shekhawat2/android_kernel_xiaomi_whyred" remote="github" revision="KCUF_419" clone-depth="1" />
+    <project path="kernel/xiaomi/whyred" name="Reinazhard/android_kernel_xiaomi_whyred" remote="github" revision="KCUF_419" clone-depth="1" />
     <project path="vendor/xiaomi/whyred" name="shekhawat2/android_vendor_xiaomi_whyred" remote="github" revision="rice" clone-depth="1" />
     <project path="hardware/qcom-caf/msm8998/audio" name="shekhawat2/android_hardware_qcom_audio" remote="github" revision="13-4.19" clone-depth="1" />
     <project path="hardware/qcom-caf/msm8998/media" name="shekhawat2/android_hardware_qcom_media" remote="github" revision="13-4.19" clone-depth="1" />
